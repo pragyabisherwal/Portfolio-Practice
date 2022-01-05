@@ -1,0 +1,296 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+   color: black;
+  
+   font-size:1.5rem;
+   
+
+}
+
+a:hover{
+    color: rgb(235, 97, 17);
+    font-size: 2rem;
+}
+
+.headings{
+    font-size:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    text-shadow: 2px 5px #000000;
+    letter-spacing: 1rem;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.5rem;
+    text-shadow: 0px 2px #ca8456;
+    box-shadow: 0px 2.98256px 7.4564px rgb(207, 124, 69);
+}
+.header--main{
+    margin:1rem;
+}
+ul{
+    display: flex;
+    position: relative;
+    bottom: 0.5rem;
+   
+
+}
+
+li{
+    margin: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.index--img{
+    
+    padding: 2rem;
+    margin: 8rem 5rem;
+}
+
+.index--name{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 3rem;
+
+   margin: 2rem;
+}
+
+.index--name>h1{
+    color: rgb(224, 85, 4);
+    text-shadow: 2px 2px #ca8456;
+}
+
+.index--name>h2{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px #ca8456;
+}
+
+.button--main{
+    
+    border: 4px solid rgb(245, 99, 14);
+    background-color: white;
+    border-radius:6px;
+    height:3rem;
+    width: 8.5rem;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    position: relative;
+    bottom: 1rem;
+    margin-right:5rem;
+}
+
+.button--main:hover{
+    background-color: #45a049;
+}
+
+.index--section{
+    display: flex;
+}
+
+.basic--img{
+    margin:4rem;
+    height:500px;
+    position: relative;
+    bottom: 6rem;
+   
+}
+.about--text{
+    display: flex;
+    
+}
+.about--content{
+    width:500px;
+    margin:2rem;
+    word-wrap:break-word; 
+    font-size:1.3rem;
+}
+
+.education{
+    display: flex;
+    margin: 2rem;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5rem;
+    margin: 2rem;
+ 
+}
+.education--main{
+   
+    margin:2.5rem;
+    background-color: rgb(219, 160, 93);
+    box-shadow: 0px 3.98256px 7.4564px rgb(207, 124, 69);
+    width: 300px;
+    height:300px;
+}
+
+.education--box{
+    margin: 2rem;
+}
+   
+
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    padding: 4rem;
+    border: 3px solid black;
+    margin: 2rem;
+  
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #b96a29;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .Project--card{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+     
+     
+      
+  }
+
+  .Footer--main{
+    font-size:1.5rem;
+    height:5rem;
+    width: 100%;
+    background-color: #000000;
+    color: #b96a29;
+    box-shadow: 0px 2.98256px 7.4564px rgb(207, 124, 69);
+  
+    
+}
+
+
+.contact--img{
+    margin:4rem;
+    height:500px;
+    position: relative;
+    bottom: 7.5rem;
+    
+   
+}
+
+
+
+.Contact--form--name
+{
+  
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.Contact--form--text
+{
+  
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  resize: vertical;
+  height:200px;
+}
+
+.Contact--form--button{
+    background-color: #45a049;
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+    width: 100%;
+    border: none;
+}
+
+.Contact--form--button:hover{
+    background-color: #4a60a8;
+
+}
+
+.Contact--form--button:target{
+    display: block;
+    
+}
+
+
+
+.sub--headings{
+    font-size:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    text-shadow: 2px 5px #000000;
+    letter-spacing: 1rem;
+}
+
+.Contact--section{
+    display: flex;
+}
+
+
+.Footer--main>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  padding:1.5rem;
+    
+}
