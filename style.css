@@ -3,16 +3,16 @@ body{
 }
 a{
     text-decoration: none;
-   color: black;
-  
+   /* color: black; */
+   color: coral;
    font-size:1.5rem;
    
 
 }
 
 a:hover{
-    color: rgb(235, 97, 17);
-    font-size: 2rem;
+    color: rgb(0, 0, 0);
+   
 }
 
 .headings{
@@ -29,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-size: 3.5rem;
-    text-shadow: 0px 2px #ca8456;
+    /* text-shadow: 0px 2px #ca8456; */
     box-shadow: 0px 2.98256px 7.4564px rgb(207, 124, 69);
 }
 .header--main{
