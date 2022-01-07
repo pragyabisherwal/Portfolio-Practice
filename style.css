@@ -294,3 +294,25 @@ article{
   padding:1.5rem;
     
 }
+
+.card--main{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+     margin: 6rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    max-height: 400px;
+    
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    margin: 2rem;
+    
+    font-size: 18px;
+  }
